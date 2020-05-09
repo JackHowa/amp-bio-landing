@@ -6,4 +6,5 @@ Exploring amp with bio site
 - [x] Validate with amp
 - [x] Use the green salmon color scheme
 - [x] Use minimal ui full page
-- [ ] Add amp service worker, offline
+- [x] Add amp service worker, offline
+- [x] Lighthouse passing 100 for PWA, seo
