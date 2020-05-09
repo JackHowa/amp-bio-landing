@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://cdn.ampproject.org">
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
     <style amp-custom>
         body {
             background-color: #113134;
@@ -75,4 +76,8 @@
         <a href="https://www.linkedin.com/in/jackhowa/" target="_blank" rel="noreferrer">LinkedIn</a>
     </footer>
   </body>
+  <amp-install-serviceworker src="/sw.js"
+                               data-iframe-src="install-sw.html"
+                               layout="nodisplay">
+    </amp-install-serviceworker>
 </html>
